@@ -1,0 +1,43 @@
+/* ======================
+   Global Responsive Spacing
+   ====================== */
+
+/* Mobile phones (portrait & small landscape) */
+@media (max-width: 767px) {
+  body {
+    padding: 1.5rem;       /* consistent breathing room */
+  }
+
+  .container, .container-fluid {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .card, .form-control, .btn {
+    margin-bottom: 1rem; /* stack nicely on small screens */
+  }
+}
+
+/* Tablets (portrait & landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding: 1rem;       /* more space on tablet */
+  }
+
+  .container, .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card, .form-control, .btn {
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Desktop (fallback, optional) */
+@media (min-width: 1025px) {
+  body {
+    padding: 2rem 3rem;
+  }
+}
+
